@@ -1,0 +1,77 @@
+.featured{
+  height: 100vh;
+}
+.featured--vertical{
+  height: inherit;
+  width: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+.featured--horizontal{
+  height: inherit;
+  width: inherit;
+  background: linear-gradient(to right, #111 30%, transparent 70%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-bottom: 200px;
+}
+.featured--horizontal > div{
+  margin-top: 15px;
+}
+.featured--name{
+  font-size: 60px;
+  font-weight: bold;
+}
+.featured--info{
+  font-size: 18px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+}
+.featured--info > div{
+  margin-right: 15px;
+}
+.featured--points{
+  color: #46d369;
+}
+.featured--description{
+  line-height: 1.6rem;
+  font-size: 20px;
+  color: #999;
+
+  max-width: 40%;
+}
+.featured--buttons{
+  display: flex;
+  align-items: center;
+}
+.featured--watchbutton,
+.featured--mylistbutton{
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+
+  transition: opacity ease 0.2s;
+}
+.featured--watchbutton:hover,
+.featured--mylistbutton:hover{
+  opacity: .8;
+}
+.featured--watchbutton{
+  background-color: #fff;
+  color: #111;
+  margin-right: 8px;
+}
+.featured--mylistbutton{
+  background-color: #333;
+  color: #fff;
+}
+.featured--genres{
+  font-size: 18px;
+  color: #999
+}

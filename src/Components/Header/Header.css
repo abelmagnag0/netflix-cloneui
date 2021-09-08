@@ -1,0 +1,33 @@
+header{
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 30px;
+}
+.header--logo img{
+  height: 30px;
+
+  transform: scale(0.95);
+  transition: all ease 0.2s;
+}
+.header--logo img:hover{
+  transform: scale(1);
+}
+.header--user img{
+  height: 50px;
+  border-radius: 3px;
+
+  transform: scale(0.95);
+  transition: all ease 0.2s;
+}
+.header--user img:hover{
+  transform: scale(1);
+}
